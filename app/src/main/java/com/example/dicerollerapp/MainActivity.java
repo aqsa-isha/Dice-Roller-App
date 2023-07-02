@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Dice Roller App (20SW14)");
+        getSupportActionBar().setTitle("Dice Roller App");
         rollButton = findViewById(R.id.button);
         rollButton.setOnClickListener(new View.OnClickListener() {
             @Override
